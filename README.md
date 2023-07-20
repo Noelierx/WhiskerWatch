@@ -32,7 +32,7 @@ WhiskerWatch is built using the MERN stack:
 - Node.js: Manages the backend server operations and database interactions.
 
 ## Collaboration:
-WhiskerWatch supports collaboration, allowing you to invite caregivers as collaborators on GitHub. This way, they can contribute to your cat's health journal, ensuring seamless care even in a collaborative environment.
+WhiskerWatch supports collaboration, allowing you to invite caregivers. This way, they can contribute to your cat's health journal, ensuring seamless care even in a collaborative environment.
 
 ## Future Improvements:
 As WhiskerWatch evolves, we plan to add additional features based on user feedback, making it the ultimate tool for cat owners and caregivers. Continuous improvement and user satisfaction are at the heart of WhiskerWatch's mission.
