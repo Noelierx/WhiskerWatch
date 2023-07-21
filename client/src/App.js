@@ -1,4 +1,3 @@
-// client/src/App.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AddCatForm from './Modules/Cats/AddCatForm';

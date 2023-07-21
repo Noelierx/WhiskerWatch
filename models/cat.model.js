@@ -1,4 +1,3 @@
-// models/cat.model.js
 const mongoose = require('mongoose');
 
 const catSchema = new mongoose.Schema({
