@@ -1,9 +1,15 @@
+// models/cat.model.js
 const mongoose = require('mongoose');
 
 const catSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: { type: Number, required: true },
-  // Add more fields for food, water, medical information, etc.
+  food: { type: String },
+  water: { type: String },
+  medical: { type: String },
+  litter: { type: String },
+  care: { type: String },
+  emergencyContact: { type: String },
 });
 
 const Cat = mongoose.model('Cat', catSchema);
