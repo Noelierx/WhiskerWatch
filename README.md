@@ -31,6 +31,18 @@ WhiskerWatch is built using the MERN stack:
 - React.js: Provides an intuitive and responsive user interface for the frontend.
 - Node.js: Manages the backend server operations and database interactions.
 
+## Installation:
+To run WhiskerWatch locally, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the `client` directory and run `npm install` to install frontend dependencies.
+3. Navigate to the root directory and run `npm install` to install backend dependencies.
+4. Set up your MongoDB database and obtain the MongoDB URI.
+5. Create a `.env` file in the root directory and add the following line, replacing `<YOUR_MONGODB_URI>` with your actual MongoDB URI: `MONGODB_URI=<YOUR_MONGODB_URI>`
+6. Start the backend server by running `npm start` in the root directory.
+7. Start the frontend development server by running `npm start` in the `client` directory.
+8. Visit `http://localhost:3000` in your web browser to access WhiskerWatch.
+
 ## Collaboration:
 WhiskerWatch supports collaboration, allowing you to invite caregivers. This way, they can contribute to your cat's health journal, ensuring seamless care even in a collaborative environment.
 
